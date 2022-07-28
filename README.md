@@ -31,12 +31,12 @@ $$
 
 And this is part of my nurse rostering model:
 $$
-\sum_{b,s,d,w} \; \left( g_{bsdw} S^{+}_{bsdw} \; + h_{bsdw} S^{-}_{bsdw} \right) \;\; 
-+ \sum_{n,w, p \in P(n,w)} \!\! c_{n} x_{npw} 
+\sum_{b,s,d,w} \left( g_{bsdw} S^{+}_{bsdw} + h_{bsdw} S^{-}_{bsdw}) 
++ \sum_{n,w, p \in P(n,w)} c_{n} x_{npw} 
 $$
 
 such that
 $$
-\sum_{n,p} \: co_{sdp} \: x_{npw} \; + \; S^{+}_{bsdw} \; - \; S^{-}_{bsdw} \; = \; r_{bsdw}
-\hspace{8ex} \forall \; b, s, d, w 
+\sum_{n,p} co_{sdp} x_{npw} + S^{+}_{bsdw} - \; S^{-}_{bsdw} = r_{bsdw}
+\hspace{8ex} \forall b, s, d, w 
 $$
