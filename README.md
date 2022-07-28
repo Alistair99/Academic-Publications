@@ -30,11 +30,13 @@ f(x) = \int_{-\infty}^\infty  \hat{f}(\xi) \, e^{2 \pi i \xi x} \,d\xi
 $$
 
 And this is part of my nurse rostering model:
+
 $$
 \sum_{b,s,d,w} ( g_{bsdw} S^{+}_{bsdw} + h_{bsdw} S^{-}_{bsdw}) + \sum_{n,w, p \in P(n,w)} c_{n} x_{npw} 
 $$
 
 such that
+
 $$
 \sum_{n,p} co_{sdp} x_{npw} + S^{+}_{bsdw} - \; S^{-}_{bsdw} = r_{bsdw} \forall b, s, d, w 
 $$
